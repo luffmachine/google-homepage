@@ -1,12 +1,14 @@
 body {
     font-size: 14px;
     font-family: arial,sans-serif;
+    margin: 0;
+
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 a:link {
@@ -36,6 +38,19 @@ a {
     display:flex;
     justify-content: center;
 }
+
+.mag {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: right;
+    transform: translate(100%,-390%);
+    border: none;
+    background: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
 
 .search-input {
     border-radius: 25px;
@@ -81,6 +96,14 @@ button:focus {
     border-radius: 4px;
 }
 
-.footer-container {
-    background-color: #f2f2f2;
+.spacer {
+        height: 200px;
+        width: 100%;
 }
+
+.footer-list {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    padding: 5px;
+}
+    
